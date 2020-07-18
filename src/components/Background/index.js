@@ -1,9 +1,12 @@
 import React from "react";
 import "./style.css";
 
-function Background() {
+function Background(props) {
     return (
-        <div className="bg"></div>
+        <div className="bg">
+            {props.children}
+        </div>
+        
     );
 }
 
