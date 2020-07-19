@@ -21,6 +21,11 @@ function Navigator() {
                         </Nav.Link>
                     </Nav.Item>
                 </Nav>
+                <Nav>
+                    <Nav.Item className="title">
+                        Austin Ricketts
+                    </Nav.Item>
+                </Nav>
             </Navbar.Collapse>
         </Navbar>
         </div>

@@ -9,7 +9,7 @@ function About() {
             <div className="row" id="header">
                 <div className="col-lg-5"></div>
                 <div className="col-lg-4">
-                    <h1>Austin Ricketts</h1>
+                    <h1>A Modernist with a Soul</h1>
                 </div>
                 <div className="col-lg-2"></div>
             </div>
