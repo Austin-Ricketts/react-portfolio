@@ -5,6 +5,11 @@
 
 #brand {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(206, 180, 66);
+    color: rgb(236, 208, 81);
     /* color: rgb(243, 43, 43); */
+}
+
+.card {
+    background-color: rgba(147, 153, 160, 0.76);
+    /* rgba(147, 153, 160, 0.87) */
 }
