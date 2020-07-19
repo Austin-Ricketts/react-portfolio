@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Nav, Navbar} from 'react-bootstrap';
 import "./style.css";
 
-function Navigator() {
+function Header() {
     return (
         <div>
         <Navbar collapseOnSelect  expand="lg">
@@ -32,4 +32,4 @@ function Navigator() {
     );
 }
 
-export default Navigator;
+export default Header;
