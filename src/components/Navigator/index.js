@@ -12,7 +12,7 @@ function Navigator() {
                 <Nav className="mr-auto d-block">
                     <Nav.Item>
                         <Nav.Link eventKey="1" as={Link} to="/" className="navbar__link--active">
-                        Austin Ricketts
+                        About
                         </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
