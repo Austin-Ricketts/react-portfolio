@@ -2,7 +2,7 @@
 
 ![https://img.shields.io/badge/Austin-Modernist%20with%20a%20Soul-yellow](https://img.shields.io/badge/Austin-Modernist%20with%20a%20Soul-yellow)
 
-
+[Website](https://austin-ricketts.herokuapp.com/)
 
 This is my personal website. It displays past coding projects. It has links to my LinkedIn, GitHub, Resume, and Email. The goal is to display my work, alongside my design skills, which encompasses my motto: "Modernism with a soul."
 
