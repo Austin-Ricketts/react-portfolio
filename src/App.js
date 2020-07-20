@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Background from "./components/Background";
 
-// import Footer from "./components/Footer";
+
 import "./App.css";
 
 function App() {
