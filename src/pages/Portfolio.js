@@ -1,10 +1,12 @@
 import React from "react";
 import Song from "./song.png";
-import Giph from "./Screen Shot 2020-06-18 at 2.39.55 PM.png";
+import Giph from "./giph.png";
 import Quiz from "./coding-quiz.png";
 import Weather from "./weather.png";
 import Work from "./workday.png";
-import Read from "./Screen Shot 2020-06-18 at 3.03.15 PM.png";
+import Read from "./readme.png";
+import site from "../components/sites.json";
+import Projects from "../components/ProjectLayout";
 import "./portfolioStyle.css";
 
 
@@ -21,6 +23,53 @@ function Portfolio() {
                     <div className="col-4"></div>
                 </div>
                 <div className="row">
+                    <Projects
+                        title={site[0].title}
+                        siteLink={site[0].siteLink}
+                        image={Song}
+                        repoLink={site[0].repoLink}
+                    />
+                    <div className="col-4"></div>
+                    <Projects
+                        title={site[1].title}
+                        siteLink={site[1].siteLink}
+                        image={Giph}
+                        repoLink={site[1].repoLink}
+                    />
+                </div>
+                <div className="row">
+                    <Projects
+                        title={site[2].title}
+                        siteLink={site[2].siteLink}
+                        image={Quiz}
+                        repoLink={site[2].repoLink}
+                    />
+                    <div className="col-4"></div>
+                    <Projects
+                        title={site[3].title}
+                        siteLink={site[3].siteLink}
+                        image={Weather}
+                        repoLink={site[3].repoLink}
+                    />
+                </div>
+                <div className="row">
+                    <Projects
+                        title={site[4].title}
+                        siteLink={site[4].siteLink}
+                        image={Work}
+                        repoLink={site[4].repoLink}
+                    />
+                    <div className="col-4"></div>
+                    <Projects
+                        title={site[5].title}
+                        siteLink={site[5].siteLink}
+                        image={Read}
+                        repoLink={site[5].repoLink}
+                    />
+                </div>
+                
+                
+                {/* <div className="row">
                     <div className="col-4">
                         <p class="titles">A Song in the Life</p>
                         <a href="https://g0nzy.github.io/song-in-the-life/">
@@ -72,7 +121,7 @@ function Portfolio() {
                         </a>
                         <a href="https://github.com/Austin-Ricketts/readme-generator" className="titles">Repo Link</a>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
