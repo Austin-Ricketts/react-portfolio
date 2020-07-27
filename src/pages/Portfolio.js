@@ -6,6 +6,7 @@ import Weather from "./weather.png";
 import Work from "./workday.png";
 import Read from "./readme.png";
 import site from "../components/sites.json";
+import Library from "./library.png";
 import Projects from "../components/ProjectLayout";
 import "./portfolioStyle.css";
 
@@ -61,7 +62,12 @@ function Portfolio() {
                         image={Work}
                         repoLink={site[4].repoLink}
                     />
-                    <div className="col-4"></div>
+                    <Projects
+                        title={site[6].title}
+                        siteLink={site[6].siteLink}
+                        image={Library}
+                        repoLink={site[6].repoLink}
+                    />
                     <Projects
                         title={site[5].title}
                         siteLink={site[5].siteLink}
